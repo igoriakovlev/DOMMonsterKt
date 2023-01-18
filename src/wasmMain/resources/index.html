@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="link">
+    You're looking at a Wasm DOM<br>
+    version of <a href="https://dbmonster.firebaseapp.com/">DBMonster</a>.<br>
+    <a class="center" href="https://github.com/igoriakovlev/DOMMonsterKt">See it on GitHub</a>
+    <a class="center" href="https://github.com/rich-harris/dom-monster">See JS version on GitHub</a>
+</div>
+
+<div id="body">
+    <table class="table table-striped latest-data">
+        <tbody></tbody>
+    </table>
+</div>
+
+<script src="http://localvoid.github.io/perf-monitor/0.1/perf-monitor.js"></script>
+<div id="root"></div>
+<script type="module" src="DOMMonsterKt-wasm.mjs"></script>
+</body>
+</html>
+
+
